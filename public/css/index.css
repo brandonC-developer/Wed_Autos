@@ -1,0 +1,106 @@
+body {
+    font-family:  'Vauxhall Neue',Arial,Verdana,Helvetica,sans-serif;
+    background-color: #282828;
+}
+
+/* Encabezados principales */
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #E50914;
+    border-color: #E50914;
+}
+
+.btn-primary:hover {
+    background-color: #b50810;
+    border-color: #b50810;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+/* Carrusel */
+.carousel-caption h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Tarjetas */
+.card {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.card-title {
+    color: #E50914;
+}
+
+.card-text {
+    color: #ddd;
+}
+
+.card a {
+    background-color: #E50914;
+    border-color: #E50914;
+    color: #fff;
+}
+
+.card a:hover {
+    background-color: #b50810;
+    border-color: #b50810;
+}
+
+/* Formularios */
+label {
+    color: #E50914;
+}
+
+.form-control, .form-select {
+    background-color: #fff;
+    color: #1c1c1c;
+    border: 1px solid #444;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #E50914;
+    box-shadow: 0 0 5px rgba(229, 9, 20, 0.5);
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.jumbotron a {
+    margin: 0 10px;
+}
+
+/* Carrusel */
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}

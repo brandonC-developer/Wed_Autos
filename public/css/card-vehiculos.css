@@ -1,0 +1,39 @@
+body {
+    font-family: "Vauxhall Neue", Arial, Verdana, Helvetica, sans-serif;
+    background-color: #282828;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Puedes ajustar la altura para que sea proporcional */
+    object-fit: cover; /* Mantiene la imagen recortada de forma proporcional */
+}
+
+/* Asegurar la simetría de las tarjetas */
+.card {
+    margin-bottom: 20px; /* Añade espacio entre las tarjetas */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Hacer que todas las tarjetas tengan el mismo tamaño */
+.card-body {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Asegurarse de que las tarjetas no se desborden */
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Diseño responsivo para mantener la simetría */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

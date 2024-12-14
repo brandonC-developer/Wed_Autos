@@ -1,0 +1,77 @@
+body {
+    font-family:  'Vauxhall Neue',Arial,Verdana,Helvetica,sans-serif;
+    background-color: #282828;
+}
+
+h2 {
+    color: #fff; /* Encabezados en blanco */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #fff; /* Fondo blanco para inputs */
+    color: #000; /* Texto negro */
+    border: 1px solid #58595b; /* Borde gris */
+}
+
+.btn-primary {
+    background-color: #58595b; /* Fondo gris */
+    border-color: #58595b; /* Borde gris */
+    color: #fff; /* Texto blanco */
+}
+
+.btn-primary:hover {
+    background-color: #ce181e; /* Fondo rojo al pasar el mouse */
+    border-color: #ce181e; /* Borde rojo */
+    color: #fff;
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.card-title {
+    color: #e50914;
+}
+
+.card-text {
+    color: #ddd;
+}
+.card a {
+    background-color: #e50914;
+    border-color: #e50914;
+    color: #fff;
+}
+
+.card a:hover {
+    background-color: #b50810;
+    border-color: #b50810;
+}
+
+.form-row {
+    background-color: #1c1c1c;
+}
+form h2 {
+    color: #58595b; /* Título en gris oscuro */
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #58595b; /* Borde gris */
+}
+
+form .btn-primary {
+    background-color: #58595b; /* Fondo gris */
+    border-color: #58595b; /* Borde gris */
+    color: #fff; /* Texto blanco */
+    transition: background-color 0.3s ease;
+}
+
+form .btn-primary:hover {
+    background-color: #ce181e; /* Fondo rojo al hacer hover */
+    border-color: #ce181e; /* Borde rojo */
+}
